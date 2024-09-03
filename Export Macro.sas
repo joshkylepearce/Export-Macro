@@ -8,19 +8,19 @@ Purpose:
 Export a file to an external file explorer location based on user-inputted parameters.
 
 Input Parameters:
-1. folder			- The file explorer location that the file will be exported to.
+1. folder		- The file explorer location that the file will be exported to.
 2. file_name		- The name of the file.
 3. file_extension	- The file extension (e.g. xlsx, csv, txt etc.).
-4. replace			- Binary indicator to overwrite pre-existing file (if exists).
+4. replace		- Binary indicator to overwrite pre-existing file (if exists).
 
 Macro Usage:
 1.	Run the export macro code.
 2.	Call the export macro and enter the input parameters.
 	e.g. %export(
-	folder			= fileexplorer/folder,
-	file_name		= filexplorer_file,
+	folder		= fileexplorer/folder,
+	file_name	= filexplorer_file,
 	file_extension 	= csv,
-	replace			= 1
+	replace		= 1
 	);
 
 Notes:
@@ -90,8 +90,8 @@ Example: Export Macro Usage
 ************************************************************************************/
 
 %export(
-folder			= \\sasebi\SAS User Data\Josh Pearce\DATA,
-file_name		= SASHELP.TOURISM,
+folder		= \\sasebi\SAS User Data\Josh Pearce\DATA,
+file_name	= SASHELP.TOURISM,
 file_extension 	= xlsx,
-replace			= 1
+replace		= 1
 );
