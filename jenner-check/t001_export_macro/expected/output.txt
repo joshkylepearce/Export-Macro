@@ -1,0 +1,9 @@
+                                      export_demo rows handed to the export macro
+
+       file_name  file_extension  id  replace
+filexplorer_file  csv              1        1
+filexplorer_file  csv              2        1
+filexplorer_file  csv              3        1
+filexplorer_file  csv              4        1
+filexplorer_file  csv              5        1
+

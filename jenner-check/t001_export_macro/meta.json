@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_export_macro",
+  "source_file": "Export Macro.sas",
+  "source_blob_sha": "659f8d6fc3b74374664650a9c17996e8ca948232",
+  "source_commit": "025d664a93150903384b09e1684015fff814039a",
+  "notes": "The %export() macro definition is copied byte-for-byte from the repo. A caller was added (the repo ships no caller besides a commented UNC-share example against SASHELP.TOURISM) that exports a small inline dataset (work.export_demo, 5 rows, built from the macro's own parameter names) to Jenner's WORK sandbox path instead of the original \\\\sasebi\\SAS User Data\\Josh Pearce\\DATA share. The macro's quote-stripping, trailing-backslash trim, and replace/no-replace PROC EXPORT branching are exercised unmodified. PROC EXPORT completes and reports 'Exported 5 rows'; the trailing PROC PRINT lists the source rows as a readable confirmation."
+}

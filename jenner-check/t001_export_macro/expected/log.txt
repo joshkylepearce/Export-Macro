@@ -1,0 +1,16 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.export_demo
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote work.export_demo (5 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC EXPORT data=export_demo outfile=/tmp/work/r_77e3e3d578c54076b00bedc18ffd0a3a/work/1aebac60-7b33-4a1d-ad2b-839f2a3b51c1\export_demo.csv
+
+NOTE: Exported 5 rows to /tmp/work/r_77e3e3d578c54076b00bedc18ffd0a3a/work/1aebac60-7b33-4a1d-ad2b-839f2a3b51c1\export_demo.csv.
+NOTE: PROC PRINT data=work.export_demo
+
+NOTE: PROC PRINT completed: 5 observations printed, 4 variables

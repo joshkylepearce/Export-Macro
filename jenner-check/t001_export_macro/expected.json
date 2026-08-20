@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T04:55:00Z",
+  "_captured_run_id": "r_77e3e3d578c54076b00bedc18ffd0a3a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.export_demo (5 rows, 4 columns).",
+    "NOTE: PROC EXPORT data=export_demo",
+    "NOTE: Exported 5 rows to",
+    "NOTE: PROC PRINT completed: 5 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
